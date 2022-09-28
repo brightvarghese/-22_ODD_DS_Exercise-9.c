@@ -18,7 +18,11 @@ The result of the merge is [1,2,2,3,5,6] with the underlined elements coming fro
 ```
 
 # Constraints
--5 * 10<sup>4</sup> <= data[i] <= 5 * 10<sup>4</sup>
+nums1.length == m + n</br>
+nums2.length >= n</br>
+0 <= m, n <= 200</br>
+1 <= m + n <= 200</br>
+-10<sup>9</sup> <= nums1[i], nums2[j] <= 10<sup>9</sup>
 
 ## Sample Input - 1
 ```
