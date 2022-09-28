@@ -1,10 +1,12 @@
 # Problem Statement
 
-You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n, representing the number of elements in nums1 and nums2 respectively.</br>
+You are given two integer arrays <i>nums1</i> and <i>nums2</i>, sorted in ascending order, and two integers m and n, representing the number of elements to be merged in nums1 and nums2 respectively.</br>
 
-Merge nums1 and nums2 into a single array sorted in non-decreasing order.</br>
+Merge <i>nums1</i> and <i>nums2</i> into a single array sorted in ascending order.</br>
 
-The final sorted array should not be returned by the function, but instead be stored inside the array nums1. To accommodate this, nums1 has a length of m + n, where the first m elements denote the elements that should be merged, and the last n elements are set to 0 and should be ignored. nums2 has a length of n.</br>
+The final sorted array should not be returned by the function, but instead be stored inside the array, <i>nums1</i>. </br>
+To accommodate this, nums1 has a length of m + n, where the first m elements denote the elements that should be merged, and the last n elements should be ignored. </br>
+
 
 
 ## Example
@@ -24,12 +26,12 @@ The result of the merge is [1,2,2,3,5,6] with the underlined elements coming fro
 7, 8, 9
 4
 2
-
-First line represents nums1
-Second line represents nums2
-Third line represents m
-Fourth line represents n
 ```
+First line represents <i>nums1</i>.</br>
+Second line represents <i>nums2</i>.</br>
+Third line shows m, which represents first four elements from <i>nums1</i> will be processed.</br>
+Fourth line shows n, which represents first two elements from <i>nums2</i> will be processed.</br>
+
 ## Sample Output - 1
 ```
 [1, 2, 3, 4, 7, 8]
